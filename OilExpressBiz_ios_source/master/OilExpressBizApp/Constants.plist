@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GOTO_MAIN_SALE</key>
+	<string>refuel/startOnStation.do</string>
+	<key>APNS_NO</key>
+	<string></string>
+	<key>CLIENT_ID</key>
+	<string>e809471a-de56-447a-9453-ed01a5d358dd</string>
+	<key>SECRET_ID</key>
+	<string>25a43235-d0f6-471e-a978-46a7653c4255</string>
+	<key>GOTO_OIL_URL_LOCAL</key>
+	<string>http://192.168.0.24:8070/energy7Home/</string>
+	<key>GOTO_OIL_URL_TEST</key>
+	<string>http://mssql.nxlab.kr:8090/energy7Home/</string>
+	<key>GOTO_OIL_URL_REAL</key>
+	<string>http://m.energy7.co.kr:9092/</string>
+	<key>GOTO_OIL_URL</key>
+	<string>http://m.energy7.co.kr:9092/</string>
+</dict>
+</plist>

@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B0CEDA91F1C44BA0070174F /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0CEDA81F1C44BA0070174F /* ic_launcher.png */; };
+		2B0CEDAC1F1C486A0070174F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B0CEDAB1F1C486A0070174F /* Images.xcassets */; };
+		2B0CEDB01F1C4F740070174F /* Constants.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B0CEDAF1F1C4F740070174F /* Constants.plist */; };
+		2B30508E1F219A7700309F38 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B3050891F219A7700309F38 /* Default-568h@2x.png */; };
+		2B30508F1F219A7700309F38 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B30508A1F219A7700309F38 /* Default-667h@2x.png */; };
+		2B3050901F219A7700309F38 /* Default-736@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B30508B1F219A7700309F38 /* Default-736@2x.png */; };
+		2B3050911F219A7700309F38 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B30508C1F219A7700309F38 /* Default.png */; };
+		2B3050921F219A7700309F38 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B30508D1F219A7700309F38 /* Default@2x.png */; };
+		5B12D2751A81FCF8001235EE /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B12D2741A81FCF8001235EE /* CoreBluetooth.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		AA85EA171D6FA56A005D98E4 /* libz.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AA85EA161D6FA56A005D98E4 /* libz.1.tbd */; };
+		AA85EA191D6FABDC005D98E4 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AA85EA181D6FABDC005D98E4 /* libsqlite3.0.tbd */; };
+		AAAA9D6C1D78285A0027DA16 /* GiGAbeacon_Decryption.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAA9D6B1D78285A0027DA16 /* GiGAbeacon_Decryption.framework */; };
+		C165CA591EB31DB200789211 /* GeofenceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AADC6DAC1D82B6B2006DD875 /* GeofenceSDK.framework */; };
+		C1758EF61DAE23C30028FFCA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1758EF51DAE23C30028FFCA /* Launch Screen.storyboard */; };
+		C19F3ACF1E650736000A5081 /* UltraSound.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19F3ACE1E650736000A5081 /* UltraSound.framework */; };
+		C1D9BC821DA7393900571668 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D9BC761DA7393900571668 /* AppDelegate.m */; };
+		C1D9BC831DA7393900571668 /* FrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D9BC7A1DA7393900571668 /* FrontViewController.m */; };
+		C1D9BC841DA7393900571668 /* FrontViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1D9BC7B1DA7393900571668 /* FrontViewController.xib */; };
+		C1D9BC881DA7393900571668 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D9BC7F1DA7393900571668 /* main.m */; };
+		C1D9BC891DA7393900571668 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D9BC811DA7393900571668 /* UIView+Toast.m */; };
+		C580124C1AA0E6430081A0AB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C580124B1AA0E6430081A0AB /* SystemConfiguration.framework */; };
+		C580124E1AA0E6E80081A0AB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C580124D1AA0E6E80081A0AB /* CoreLocation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B0CEDA81F1C44BA0070174F /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_launcher.png; path = OilExpressBizApp/ic_launcher.png; sourceTree = "<group>"; };
+		2B0CEDAA1F1C48060070174F /* OilExpressOil.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OilExpressOil.entitlements; sourceTree = SOURCE_ROOT; };
+		2B0CEDAB1F1C486A0070174F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = OilExpressBiz/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		2B0CEDAF1F1C4F740070174F /* Constants.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Constants.plist; sourceTree = "<group>"; };
+		2B3050891F219A7700309F38 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2B30508A1F219A7700309F38 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		2B30508B1F219A7700309F38 /* Default-736@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736@2x.png"; sourceTree = "<group>"; };
+		2B30508C1F219A7700309F38 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2B30508D1F219A7700309F38 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5B12D2741A81FCF8001235EE /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		5B459E5D1A81ECB4000D51DD /* OilExpressBiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OilExpressBiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA85EA141D6FA560005D98E4 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		AA85EA161D6FA56A005D98E4 /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = usr/lib/libz.1.tbd; sourceTree = SDKROOT; };
+		AA85EA181D6FABDC005D98E4 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		AAAA9D6B1D78285A0027DA16 /* GiGAbeacon_Decryption.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GiGAbeacon_Decryption.framework; sourceTree = "<group>"; };
+		AADC6DAC1D82B6B2006DD875 /* GeofenceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GeofenceSDK.framework; sourceTree = "<group>"; };
+		C1758EF51DAE23C30028FFCA /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		C19F3ACE1E650736000A5081 /* UltraSound.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UltraSound.framework; sourceTree = "<group>"; };
+		C1D9BC751DA7393900571668 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1D9BC761DA7393900571668 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1D9BC781DA7393900571668 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		C1D9BC791DA7393900571668 /* FrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontViewController.h; sourceTree = "<group>"; };
+		C1D9BC7A1DA7393900571668 /* FrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontViewController.m; sourceTree = "<group>"; };
+		C1D9BC7B1DA7393900571668 /* FrontViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FrontViewController.xib; sourceTree = "<group>"; };
+		C1D9BC7E1DA7393900571668 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1D9BC7F1DA7393900571668 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1D9BC801DA7393900571668 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		C1D9BC811DA7393900571668 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		C580124B1AA0E6430081A0AB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C580124D1AA0E6E80081A0AB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B459E5A1A81ECB4000D51DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C165CA591EB31DB200789211 /* GeofenceSDK.framework in Frameworks */,
+				AAAA9D6C1D78285A0027DA16 /* GiGAbeacon_Decryption.framework in Frameworks */,
+				C19F3ACF1E650736000A5081 /* UltraSound.framework in Frameworks */,
+				AA85EA191D6FABDC005D98E4 /* libsqlite3.0.tbd in Frameworks */,
+				AA85EA171D6FA56A005D98E4 /* libz.1.tbd in Frameworks */,
+				C580124E1AA0E6E80081A0AB /* CoreLocation.framework in Frameworks */,
+				C580124C1AA0E6430081A0AB /* SystemConfiguration.framework in Frameworks */,
+				5B12D2751A81FCF8001235EE /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B0CEDA41F1C40CD0070174F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C1D9BC791DA7393900571668 /* FrontViewController.h */,
+				C1D9BC7A1DA7393900571668 /* FrontViewController.m */,
+				C1D9BC7B1DA7393900571668 /* FrontViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2B0CEDA51F1C40DF0070174F /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				C1D9BC751DA7393900571668 /* AppDelegate.h */,
+				C1D9BC761DA7393900571668 /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		2B0CEDA61F1C40F50070174F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C1D9BC801DA7393900571668 /* UIView+Toast.h */,
+				C1D9BC811DA7393900571668 /* UIView+Toast.m */,
+				C1D9BC781DA7393900571668 /* Common.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		2B0CEDA71F1C44830070174F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B3050891F219A7700309F38 /* Default-568h@2x.png */,
+				2B30508A1F219A7700309F38 /* Default-667h@2x.png */,
+				2B30508B1F219A7700309F38 /* Default-736@2x.png */,
+				2B30508C1F219A7700309F38 /* Default.png */,
+				2B30508D1F219A7700309F38 /* Default@2x.png */,
+				2B0CEDA81F1C44BA0070174F /* ic_launcher.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2BAF33871F1C3FBA00736066 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				AA85EA181D6FABDC005D98E4 /* libsqlite3.0.tbd */,
+				AA85EA161D6FA56A005D98E4 /* libz.1.tbd */,
+				AA85EA141D6FA560005D98E4 /* libsqlite3.tbd */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		5B459E541A81ECB4000D51DD = {
+			isa = PBXGroup;
+			children = (
+				2BAF33871F1C3FBA00736066 /* libs */,
+				C1E36E7B1E02704D00F7C558 /* Frameworks */,
+				2B0CEDA71F1C44830070174F /* Resources */,
+				C1D9BC741DA7388100571668 /* OilExpressBiz */,
+				5B459E5E1A81ECB4000D51DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B459E5E1A81ECB4000D51DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B459E5D1A81ECB4000D51DD /* OilExpressBiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1D9BC741DA7388100571668 /* OilExpressBiz */ = {
+			isa = PBXGroup;
+			children = (
+				2B0CEDAA1F1C48060070174F /* OilExpressOil.entitlements */,
+				2B0CEDA61F1C40F50070174F /* Common */,
+				2B0CEDA51F1C40DF0070174F /* Delegate */,
+				2B0CEDA41F1C40CD0070174F /* Controller */,
+				2B0CEDAB1F1C486A0070174F /* Images.xcassets */,
+				C1D9BC8A1DA7396500571668 /* Supporting Files */,
+			);
+			name = OilExpressBiz;
+			path = OilExpressBizApp;
+			sourceTree = "<group>";
+		};
+		C1D9BC8A1DA7396500571668 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B0CEDAF1F1C4F740070174F /* Constants.plist */,
+				C1D9BC7E1DA7393900571668 /* Info.plist */,
+				C1D9BC7F1DA7393900571668 /* main.m */,
+				C1758EF51DAE23C30028FFCA /* Launch Screen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1E36E7B1E02704D00F7C558 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C19F3ACE1E650736000A5081 /* UltraSound.framework */,
+				AADC6DAC1D82B6B2006DD875 /* GeofenceSDK.framework */,
+				AAAA9D6B1D78285A0027DA16 /* GiGAbeacon_Decryption.framework */,
+				C580124D1AA0E6E80081A0AB /* CoreLocation.framework */,
+				C580124B1AA0E6430081A0AB /* SystemConfiguration.framework */,
+				5B12D2741A81FCF8001235EE /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B459E5C1A81ECB4000D51DD /* OilExpressBiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B459E801A81ECB4000D51DD /* Build configuration list for PBXNativeTarget "OilExpressBiz" */;
+			buildPhases = (
+				5B459E591A81ECB4000D51DD /* Sources */,
+				5B459E5A1A81ECB4000D51DD /* Frameworks */,
+				5B459E5B1A81ECB4000D51DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OilExpressBiz;
+			productName = GIGABeaconTestApp;
+			productReference = 5B459E5D1A81ECB4000D51DD /* OilExpressBiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B459E551A81ECB4000D51DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = unus;
+				TargetAttributes = {
+					5B459E5C1A81ECB4000D51DD = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = AV4MG74PS3;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 5B459E581A81ECB4000D51DD /* Build configuration list for PBXProject "OilExpressBiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B459E541A81ECB4000D51DD;
+			productRefGroup = 5B459E5E1A81ECB4000D51DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B459E5C1A81ECB4000D51DD /* OilExpressBiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B459E5B1A81ECB4000D51DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0CEDB01F1C4F740070174F /* Constants.plist in Resources */,
+				2B3050911F219A7700309F38 /* Default.png in Resources */,
+				2B3050921F219A7700309F38 /* Default@2x.png in Resources */,
+				2B3050901F219A7700309F38 /* Default-736@2x.png in Resources */,
+				C1758EF61DAE23C30028FFCA /* Launch Screen.storyboard in Resources */,
+				2B30508F1F219A7700309F38 /* Default-667h@2x.png in Resources */,
+				2B0CEDAC1F1C486A0070174F /* Images.xcassets in Resources */,
+				C1D9BC841DA7393900571668 /* FrontViewController.xib in Resources */,
+				2B0CEDA91F1C44BA0070174F /* ic_launcher.png in Resources */,
+				2B30508E1F219A7700309F38 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B459E591A81ECB4000D51DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D9BC891DA7393900571668 /* UIView+Toast.m in Sources */,
+				C1D9BC831DA7393900571668 /* FrontViewController.m in Sources */,
+				C1D9BC881DA7393900571668 /* main.m in Sources */,
+				C1D9BC821DA7393900571668 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5B459E7E1A81ECB4000D51DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Geofence Test App";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Debug;
+		};
+		5B459E7F1A81ECB4000D51DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "Geofence Test App";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Release;
+		};
+		5B459E811A81ECB4000D51DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OilExpressOil.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = AV4MG74PS3;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/OilExpressBizApp",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/OilExpressBizApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.energy7.OilExpress.biz;
+				PRODUCT_NAME = OilExpressBiz;
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Debug;
+		};
+		5B459E821A81ECB4000D51DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OilExpressOil.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = AV4MG74PS3;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/OilExpressBizApp",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/OilExpressBizApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.energy7.OilExpress.biz;
+				PRODUCT_NAME = OilExpressBiz;
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B459E581A81ECB4000D51DD /* Build configuration list for PBXProject "OilExpressBiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B459E7E1A81ECB4000D51DD /* Debug */,
+				5B459E7F1A81ECB4000D51DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B459E801A81ECB4000D51DD /* Build configuration list for PBXNativeTarget "OilExpressBiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B459E811A81ECB4000D51DD /* Debug */,
+				5B459E821A81ECB4000D51DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B459E551A81ECB4000D51DD /* Project object */;
+}

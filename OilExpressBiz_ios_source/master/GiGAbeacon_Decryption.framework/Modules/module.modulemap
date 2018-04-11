@@ -1,0 +1,6 @@
+framework module GiGAbeacon_Decryption {
+  umbrella header "GiGAbeacon_Decryption.h"
+
+  export *
+  module * { export * }
+}
